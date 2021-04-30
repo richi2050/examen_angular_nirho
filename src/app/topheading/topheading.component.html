@@ -1,0 +1,10 @@
+<div class="container">
+    <div class='row'>
+        <div *ngFor="let d of topheadingDisplay" class='col-lg-3'>
+            <img src="{{d.urlToImage}}" width="100%">
+            <h5 class='mt-2 mb-2'>{{ d.title }}</h5>
+            <p>{{ d.content }}</p>
+            <a href="{{ d.url }}">Leer mas ... </a>
+        </div>
+    </div>
+</div>
